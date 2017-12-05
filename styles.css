@@ -84,4 +84,9 @@ body {
     width: 20vh;
     height: 20vh;
   }
+
+  .circle h1 {
+    line-height: 19vh;
+    font-size: 10vh;
+  }
 }
