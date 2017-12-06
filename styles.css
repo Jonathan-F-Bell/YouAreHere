@@ -102,6 +102,53 @@ body {
   height: 80px;
 }
 
+.section {
+  margin-top: 20px;
+}
+
+.section-head h1 {
+  font-weight: 400;
+  padding: 10px;
+}
+
+.arrow img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  display: none;
+}
+
+.section hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 1px;
+  color: #d3d3d3;
+  background-color: #d3d3d3;
+  border: none;
+
+}
+
+.section-content {
+  display: block;
+}
+
+.section-content.show {
+  display: block;
+}
+
+.rotate img {
+  transform: rotate(180deg);
+}
+
+.section-content {
+  padding: 10px;
+}
+
 @media (max-width:800px) {
 
   .header {
@@ -130,4 +177,18 @@ body {
   .spacer {
     height: 60vh;
   }
+
+  .section-head h1 {
+    padding: 0px;
+  }
+
+  .arrow img {
+    display: block;
+    width: 30px;
+  }
+
+  .section-content {
+    display: none;
+  }
+
 }
