@@ -197,8 +197,9 @@ body {
   }
 
   .section-content iframe {
-    width: auto;
-    height: 450px;
+    width: 95vw;
+    margin: 0 auto;
+    height: 80vh;
   }
 
 }
