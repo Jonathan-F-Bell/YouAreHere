@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>You Are Here</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../script.js"></script>
+
+    <meta name="theme-color" content="#cc0000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+    <div id="header" class="header">
+      <h3>You Are Here</h3>
+      <h2>Ryder Hall</h2>
+    </div>
+    <div id="circle" class="circle">
+      <h1>RY</h1>
+    </div>
+    <div id="spacer" class="spacer"></div>
+
+  <div id="wrapper">
+    <div class="section">
+      <div class="section-head">
+        <div id="about-arrow" class="arrow rotate" onclick="showSection('about', 'about-arrow')">
+          <img src="../img/arrow.png">
+        </div>
+        <h1>About</h1>
+      </div>
+      <hr>
+      <div id="about" class="section-content show">
+        <p>Ryder Hall is home to Northeastern's College of Arts, Media and Design. It houses classrooms, offices, practice spaces, art studios, and the Ryder Theater Lab.</p>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div id="map-arrow" class="arrow" onclick="showSection('map', 'map-arrow')">
+          <img src="../img/arrow.png">
+        </div>
+        <h1>Map</h1>
+      </div>
+      <hr>
+      <div id="map" class="section-content">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDEyBNpAnHjGMl1fBMTgTeYGC34z9NDgAE
+    &q=place_id:ChIJudN9LSJ644kRVOWMhAJPOjw"
+         frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <div id="tips-arrow" class="arrow" onclick="showSection('tips', 'tips-arrow')">
+          <img src="../img/arrow.png">
+        </div>
+        <h1>Tips</h1>
+      </div>
+      <hr>
+      <div id="tips" class="section-content">
+        <h3>There are four floors of Ryder, however the main central staircase only goes up to floor 3. To access the 4th floor, take the elevator or the staircase near the bathroom.</h3>
+        <h3>Ryder contains a Subway restaurant, which is a great place to grab a quick bite between classes.</h3>
+
+      </div>
+
+    </div>
+
+  </div>
+  </body>
+
+</html>
